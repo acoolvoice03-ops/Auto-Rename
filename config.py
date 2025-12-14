@@ -28,7 +28,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.rj1.dev/ADADe.png")
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://i.rj1.dev/ADADe.png")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "8367080346"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "8525952693"))
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003424080002"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003252059303"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.rj1.dev/ADADe.png")
