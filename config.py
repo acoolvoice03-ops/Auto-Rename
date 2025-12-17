@@ -18,9 +18,8 @@ class Config(object):
     PORT = os.environ.get("PORT", "8980")
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://botskingdom2:t7ognZuINrNfH3tj@cluster0.ystdy4m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
- 
+    DB_NAME = os.environ.get("DB_NAME", "miraclerenamer")     
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://acoolvoice03_db_user:gDvzSlQvi0REvSWP@cluster0.t91uvkm.mongodb.net/?appName=Cluster0")
     # other configs
     ADMIN_URL = "https://t.me/funnytamilan"
     DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003252059303")
